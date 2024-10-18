@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main__container">
+        <header>
+            <h1 id="head">Rock Paper Scissor</h1>
+        </header>
+        <section class="score">
+            <h3><span id="player__score">0</span> vs <span id="computer__score">0</span></h3>
+            <div class="choice__container">
+                <h1 class="player__choice">&#9996;</h1>
+                <h1>vs</h1>
+                <h1 class="computer__choice">&#9996;</h1>
+            </div>
+        </section>
+        <section class="play__btn">
+            <button id="rock" class="btn" value="0">&#9994;</button>
+            <button id="paper" class="btn"value="1">&#128400;</button>
+            <button id="scissor" class="btn"value="2" >&#9996;</button>
+        </section>
+        <footer class="reset__container">
+            <button id="reset">reset</button>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
