@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #C4E1F6;
+    font-family: "Book Antiqua";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: #ffff;
+    gap: 25px;
+    padding: 60px;
+}
+.score{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+}
+.choice__container{
+    display: flex;
+    justify-content: space-around;
+}
+.choice__container h1{
+    font-size: 90px;
+}
+.play__btn{
+    margin-top: 20px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    gap:20px
+}
+.play__btn button{
+    padding: 12px 17px;
+    font-size: 40px;
+    border: none;
+    outline: none;
+    background: none;
+}
+.play__btn button:hover{
+    border-radius: 50%;
+    background: #96C9F4;
+}
+.reset__container button{
+    font-family: "Book Antiqua";
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 3px solid #F95454;
+    border-radius: 5px;
+    outline: none;
+    background: none;
+}
+.reset__container button:hover{
+    background: #F95454;
+    color: #ffff;
+}
+.success{
+    color: green;
+}
+.failure{
+    color: red;
+}
